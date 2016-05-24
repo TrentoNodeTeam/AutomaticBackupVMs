@@ -1,0 +1,9 @@
+#Crontab settings
+
+In order to backup the VMs during the night is enough to set crontab calling the script and passing the hostname of the compute 
+
+The backup can be done for all VMs in one time but is preferrable to backup one compute (max 2 ) per night depending on the amount of VMs and speed of the system.
+
+## example
+0 0 * * * 0 sh <Folder Path>/automaticbackup.sh node-16.domain.tld
+0 0 * * * 1 sh <Folder Path>/automaticbackup.sh node-18.domain.tld
