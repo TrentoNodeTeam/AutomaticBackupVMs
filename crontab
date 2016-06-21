@@ -2,8 +2,9 @@
 
 In order to backup the VMs during the night is enough to set crontab calling the script and passing the hostname of the compute 
 
-The backup can be done for all VMs in one time but is preferrable to backup one compute (max 2) per night depending on the amount of VMs and speed of the system.
-Also the script will remove the old snapshots in order to avoid duplicated snapshots.
+The backup can be done for all VMs in one time but is preferrable to backup one compute (max 2) per night 
+depending on the amount of VMs and speed of the system. Also the script will remove the old snapshots in order to 
+avoid duplicated snapshots.
 
 
 ## example
